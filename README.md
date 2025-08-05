@@ -1,16 +1,16 @@
 # Cybersecurity Internship - Task 1: Network Port Scanning  
 
-Task Objective  
+📌 Task Objective  
 Perform a network port scan using Nmap to identify open ports and assess security risks.  
 
-Tools Used  
+🔍 Tools Used  
 - Nmap: For port scanning (`nmap -sS 192.168.1.0/24`).    
 
-## 📂 Files Included  
+📂 Files Included  
 1. `scan_results.txt`: Raw Nmap scan output.  
-2. `screenshot.png` (Optional): Proof of scan execution.  
+2. `scan_screenshot.png` : Proof of scan execution.  
 
-## 🚀 Steps Performed  
+🚀 Steps Performed  
 1. Identified local IP range (`192.168.1.0/24`).  
 2. Ran TCP SYN scan:  
    ```bash
