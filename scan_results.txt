@@ -1,0 +1,75 @@
+# Nmap 7.97 scan initiated Tue Aug  5 22:21:28 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.013s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  closed https
+9000/tcp open   cslistener
+9001/tcp open   tor-orport
+9002/tcp open   dynamid
+9003/tcp open   unknown
+
+Nmap scan report for 192.168.1.100
+Host is up (0.012s latency).
+Not shown: 975 closed tcp ports (reset)
+PORT      STATE    SERVICE
+1/tcp     filtered tcpmux
+617/tcp   filtered sco-dtmgr
+1047/tcp  filtered neod1
+1092/tcp  filtered obrpd
+1111/tcp  filtered lmsocialserver
+1169/tcp  filtered tripwire
+1455/tcp  filtered esl-lm
+2065/tcp  filtered dlsrpn
+2068/tcp  filtered avocentkvm
+2605/tcp  filtered bgpd
+2702/tcp  filtered sms-xfer
+3323/tcp  filtered active-net
+3784/tcp  filtered bfd-control
+3801/tcp  filtered ibm-mgr
+4662/tcp  filtered edonkey
+6101/tcp  filtered backupexec
+7007/tcp  filtered afs3-bos
+7800/tcp  filtered asr
+8087/tcp  filtered simplifymedia
+9081/tcp  filtered cisco-aqos
+9877/tcp  filtered x510
+10025/tcp filtered unknown
+14442/tcp filtered unknown
+16012/tcp filtered unknown
+49167/tcp filtered unknown
+
+Nmap scan report for 192.168.1.135
+Host is up (0.056s latency).
+All 1000 scanned ports on 192.168.1.135 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.141
+Host is up (0.031s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+3367/tcp  open   satvid-datalnk
+5000/tcp  closed upnp
+5001/tcp  closed commplex-link
+6000/tcp  closed X11
+7000/tcp  closed afs3-fileserver
+8085/tcp  closed unknown
+8086/tcp  closed d-s-n
+9080/tcp  open   glrpc
+12345/tcp closed netbus
+50000/tcp closed ibm-db2
+
+Nmap scan report for 192.168.1.220
+Host is up (0.0023s latency).
+All 1000 scanned ports on 192.168.1.220 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.233
+Host is up (0.0068s latency).
+All 1000 scanned ports on 192.168.1.233 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Tue Aug  5 22:25:16 2025 -- 256 IP addresses (6 hosts up) scanned in 227.98 seconds
